@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>analise do solo</title>
+    <link rel="stylesheet" href="s.css">
+
+</head>
+<body class="corpo">
+    <header class="heamd">
+      <h1 class="solo1">Analise do solo</h1>
+    </header>
+    <div class="slo3">
+        <h2>como verificar o ph do solo</h2>
+       <h3> Método caseiro com vinagre e bicarbonato</h3>
+       <p>É uma estimativa, não dá o número exato, mas mostra se o solo é ácido ou alcalino.
+    Como fazer:
+    Pegue duas amostras de terra.
+    <ul>
+        <li>  Na primeira amostra, adicione vinagre</li>
+        <li>Na segunda amostra, adicione água + bicarbonato de sódio</li>
+         
+        
+    </ul>
+</p>
+
+  <h3>Usando tiras de papel pH (barato e simples)</h3>
+  <p>
+    O que precisa:
+    <li> Tiras de pH (vende em lojas de aquário, farmácia ou online).</li>
+     <li>Recipiente com água destilada ou filtrada.</li>
+    <li> Amostra de solo.</li>
+  
+
+  
+  </p>
+  <h3>Como usar:</h3>
+  <ul>
+    <li>Pegue 1 parte de solo seco e 2 partes de água.</li>
+      <li>Misture bem e deixe descansar por 10/15 minutos.</li>
+     <li> Mergulhe a tira de pH na água do solo.</li>
+      <li> Compare a cor com a escala da embalagem para saber o pH.</li>
+     </ul>
+  
+ 
+</div>
+       <h2>Verificar pH do Solo</h2>
+
+  <h4>Método 1: Reações químicas</h4>
+  <label><input type="checkbox" id="vinagre"> Borbulhou com VINAGRE</label>
+  <label><input type="checkbox" id="bicarbonato"> Borbulhou com BICARBONATO</label>
+
+  <h4>Método 2: Medição com tira de pH</h4>
+  <label for="phValue">Informe o valor da tira (ex: 6.5):</label>
+  <input type="number" step="0.1" min="3" max="10" id="phValue">
+
+  <br>
+  <button onclick="verificarPH()">Verificar pH</button>
+
+  <div id="resultado"></div>
+
+    <script src="j.js"></script>
+</body>
+</html>
